@@ -42,6 +42,7 @@ main {
   row-gap: 10px;
   column-gap: 10px;
   margin: 10px;
+  
 }
 
 .box-pagina-principal {
@@ -51,7 +52,7 @@ main {
   border-style: solid;
   border-width: thin;
   align-items: start;
-  justify-items: stretch;
+  justify-items: center;
 }
 
 footer {
@@ -71,4 +72,9 @@ footer {
 
 h4 {
   margin-left: 20px;
+}
+
+.usuario{
+  display: flex;
+  align-items: center;
 }
